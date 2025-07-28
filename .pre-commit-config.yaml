@@ -1,0 +1,11 @@
+- repo: https://github.com/psf/black
+  rev: 24.3.0
+  hooks:
+    - id: black
+      language_version: python3.12
+
+- repo: https://github.com/pre-commit/mirrors-flake8
+  rev: v4.0.1
+  hooks:
+    - id: flake8
+      language_version: python3.12

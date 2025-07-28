@@ -1,0 +1,10 @@
+{
+  "label": "run migrations",
+  "type": "shell",
+  "command": "bash",
+  "args": [
+    "-c",
+    "source .venv/bin/activate && PYTHONPATH=src alembic revision --autogenerate -m 'initial clean migration'"
+  ],
+  "problemMatcher": []
+}
